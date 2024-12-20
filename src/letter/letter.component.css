@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Divagon';
+  src: url('/fonts/Divagon.ttf') format('truetype');
+}
+
+div {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: 'Divagon', serif;
+  font-size: 10vmin;
+  /*font-variant: all-petite-caps;*/
+}
+
+
