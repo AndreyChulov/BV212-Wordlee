@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FieldComponent } from '../field/field.component';
 import { InputWordComponent } from '../input-word/input-word.component';
+import { Game } from '../../classes/game/game';
 
 @Component({
   selector: 'Wordlee',
@@ -9,5 +10,5 @@ import { InputWordComponent } from '../input-word/input-word.component';
   styleUrl: './wordlee.component.css'
 })
 export class Wordlee {
-
+  Game:Game = new Game();
 }
