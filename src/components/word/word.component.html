@@ -1,8 +1,8 @@
 <div class="word">
-  <Letter></Letter>
-  <Letter></Letter>
-  <Letter></Letter>
-  <Letter></Letter>
-  <Letter></Letter>
+  <Letter [LetterInfo]="(WordInfo === undefined) ? EmptyLetterInfo : WordInfo.LetterInfo[0]"></Letter>
+  <Letter [LetterInfo]="(WordInfo === undefined) ? EmptyLetterInfo : WordInfo.LetterInfo[1]"></Letter>
+  <Letter [LetterInfo]="(WordInfo === undefined) ? EmptyLetterInfo : WordInfo.LetterInfo[2]"></Letter>
+  <Letter [LetterInfo]="(WordInfo === undefined) ? EmptyLetterInfo : WordInfo.LetterInfo[3]"></Letter>
+  <Letter [LetterInfo]="(WordInfo === undefined) ? EmptyLetterInfo : WordInfo.LetterInfo[4]"></Letter>
 </div>
 

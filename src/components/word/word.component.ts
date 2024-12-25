@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 import { LetterComponent } from '../letter/letter.component';
+import { WordInfo } from '../../classes/word-info';
+import { LetterInfo } from '../../classes/letter-info';
 
 @Component({
   selector: 'Word',
@@ -8,5 +10,6 @@ import { LetterComponent } from '../letter/letter.component';
   styleUrl: './word.component.css'
 })
 export class WordComponent {
-
+  @Input() WordInfo: WordInfo | undefined;
+  protected readonly EmptyLetterInfo = new LetterInfo("", "", "");
 }

@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import { Game } from '../../classes/game/game';
+import { Game } from '../../classes/game';
 
 @Component({
   selector: 'InputWord',

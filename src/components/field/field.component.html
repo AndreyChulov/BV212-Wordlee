@@ -1,7 +1,7 @@
 <div class="field">
-  <Word></Word>
-  <Word></Word>
-  <Word></Word>
-  <Word></Word>
-  <Word></Word>
+  <Word [WordInfo]="(Game === undefined) ? EmptyWordInfo : Game.Tries[0]"></Word>
+  <Word [WordInfo]="(Game === undefined) ? EmptyWordInfo : Game.Tries[1]"></Word>
+  <Word [WordInfo]="(Game === undefined) ? EmptyWordInfo : Game.Tries[2]"></Word>
+  <Word [WordInfo]="(Game === undefined) ? EmptyWordInfo : Game.Tries[3]"></Word>
+  <Word [WordInfo]="(Game === undefined) ? EmptyWordInfo : Game.Tries[4]"></Word>
 </div>
